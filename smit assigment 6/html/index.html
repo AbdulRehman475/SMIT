@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="shortcut icon" href="../img/form.jfif" type="image/x-icon">
+  </head>
+  <body>
+      <center style="padding:100px;">
+      <h1>
+        <u style="color: blueviolet;"> STUDENT REGISTRATION FORM </u>
+        <br /><br />
+      </h1>
+      <div style="border: 2px solid black; background-color: blueviolet; color: white;">
+        <form action="index.php" method="post">
+          <table>
+            <tr>
+              <td>FIRST NAME</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <p>(max30character a-z and A-Z)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>LAST NAME</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <p>(max30character a-z and A-Z)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>DATE OF BIRTH</td>
+              <td>
+                <input type="day" />
+              </td>
+              <td>
+                <input type="month" />
+              </td>
+              <td>
+                <input type="year" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>EMAIL ID</p>
+              </td>
+              <td>
+                <input type="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>MOBILE NUMBER</td>
+              <td><input type="number" /></td>
+            </tr>
+            <tr>
+              <p>(10 digit number)</p>
+            </tr>
+            <tr>
+              <td>
+                <p>GENDER</p>
+              </td>
+              <td>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" />
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>ADDRESS</p>
+              </td>
+              <td>
+                <textarea name="" id="" placeholder="type text here"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>CITY</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <p>(max30character a-z and A-Z)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>PIN CODE</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <p>(6 digit number)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>STATE</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <p>(max30character a-z and A-Z)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>COUNTRY</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>HOBBIES</p>
+              </td>
+              <td>
+                <label for="">Drawing</label>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <label for="">Singing</label>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <label for="">Daincing</label>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <label for="">Skethcing</label>
+                <input type="checkbox" />
+              </td>
+              <br />
+              <td>
+                <label for="">Other</label>
+                <input type="Other" />
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="6">
+                <p>QUALIFICATION</p>
+              </td>
+              <td>
+                <p>SI.NO.Examination</p>
+              </td>
+              <td>
+                <p>Board</p>
+              </td>
+              <td>
+                <p>Percentage</p>
+              </td>
+              <td>
+                <p>Year of Passing</p>
+              </td>
+            </tr>
+            <tr colspan="3">
+              <td>1</td>
+              <td>Class X</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Class XII</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Graduation</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Master</td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"><p>(10 char max)</p></td>
+              <td><p>(upto 2 decimal)</p></td>
+            </tr>
+           <tr>
+            <p>
+                COURSES
+            </p>
+           </tr>
+           <tr>
+            <p>
+                APPLIED FOR
+            </p>
+            <tr>
+              <label for="">BCA</label>
+              <input type="radio" name="course">
+           </tr>
+             <tr>
+              <label for="">B.Com</label>
+              <input type="radio" name="course">
+           </tr>
+             <tr>
+              <label for="">B.Sc</label>
+              <input type="radio" name="course">
+           </tr>
+             <tr>
+              <label for="">B.A</label>
+              <input type="radio" name="course">
+           </tr>
+           <tr>
+            <button>
+                    <input type="Submit">
+            </button>
+           </tr>
+            <tr>
+            <button>
+                    <input type="Reset">
+            </button>
+           </tr>
+        </div>
+         </form>
+          </table>
+    </center>
+  </body>
+</html>

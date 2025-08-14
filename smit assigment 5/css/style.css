@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.imgh{
+    height: 90px;
+    width: 90px;
+    align-items: center;
+}
